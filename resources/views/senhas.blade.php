@@ -4,6 +4,10 @@
 
 @section('content')
 
-<h1>Senhas</h1>
+<div class="container">
+    <section class="text-center display-6 p-5">
+        <h2>Senhas</h2>
+    </section>
+</div>
 
 @endsection

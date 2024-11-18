@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/senhas', function (){
     return view('senhas');
 });
+
+Route::get('/newPass', function (){
+    return view('newPass');
+});

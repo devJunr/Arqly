@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div id="carouselExampleIndicators" class="carousel slide">
+<div id="carouselExampleIndicators" class="carousel slide mt-5">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -29,5 +29,19 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+<div class=" p-5 container">
+<h1 class="display-1 text-white">LockPassManager</h1>
+<p class="text-white">O LockPassManager é um gerenciador de senhas seguro e fácil de usar, desenvolvido para ajudar os usuários a armazenar e gerenciar suas senhas de forma eficiente. Com uma interface intuitiva e recursos robustos, ele garante a segurança das suas informações.</p>
+
+<h1 class="display-6 text-white pt-5">Funcionalidades</h1>
+<ul>
+<li class="pt-1">Armazenamento seguro de senhas: Guarde suas senhas em um local seguro, protegido contra acessos não autorizados.</li>
+<li class="pt-1">Geração de senhas fortes: Crie senhas robustas e difíceis de adivinhar com apenas um clique.</li>
+<li class="pt-1">Recuperação de senhas: Recupere facilmente suas senhas caso você as esqueça.</li>
+<li class="pt-1">Verificação se o email vazou: Fique informado se seu email foi exposto em vazamentos de dados.</li>
+<li class="pt-1">Interface amigável: Navegue pelo aplicativo de maneira fácil e intuitiva, sem complicações.</li>
+<li class="pt-1">Nada de guardar na nuvem: Todos os dados são armazenados localmente, garantindo total controle e privacidade das suas informações.</li>
+</ul>
 </div>
 @endsection

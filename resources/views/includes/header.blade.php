@@ -1,7 +1,5 @@
-<nav class="navbar bg-dark text-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <h1 class="text-white"><i class="bi bi-key text-white"></i> LockPassManager - @yield('title') </h1>
-    </a>
-  </div>
+<nav class="d-flex pt-3 pb-3 pl-5 gap-5 bg-black text-danger text-center align-items-center justify-content-center">
+  <a href="/">Home</a>
+  <a href="/senhas">Senhas</a>
+  <a href="/newPass">Adicionar</a>
 </nav>
