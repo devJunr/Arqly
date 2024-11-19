@@ -16,16 +16,12 @@
     <section class="m-3">
         <input type="checkbox" id="b" name="b" value="op-01">
         <label for="b">Desativar a opção de página inicial</label><br>
-    
+
     </section>
+
 </div> 
-
-
-<div class="m-4">
+<div class="d-flex align-items-center justify-content-center m-5 gap-3">
     <button type="submit" class="btn btn-success">Salvar</button>
     <button type="submit" class="btn btn-danger">Cancelar</button>
 </div>
-    
-
-
 @endsection
