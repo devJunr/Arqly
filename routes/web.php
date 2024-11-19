@@ -13,3 +13,7 @@ Route::get('/senhas', function (){
 Route::get('/newPass', function (){
     return view('newPass');
 });
+
+Route::get('/config', function(){
+    return view('config');
+});

@@ -3,9 +3,6 @@
 </footer>
 
 <script>
-    // Coleta a URL atual
     const url_coneccao = window.location.href;
-
-    // Atualiza o conteúdo do elemento h2 com a URL
     document.getElementById('connection-url').innerText += " " + url_coneccao;
 </script>
