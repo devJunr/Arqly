@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('senhas', function (Blueprint $table) {
             $table->id();
+            $table->string("nomeServico");
+            $table->string("senhaServico");
             $table->timestamps();
         });
     }
