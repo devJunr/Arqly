@@ -37,7 +37,7 @@
   
   <img src="images/icons/icon.png" class="img-fluid" width="260rem">
 </div>
-<p class="text-dark">O LockPassManager é um gerenciador de senhas seguro e fácil de usar, desenvolvido para ajudar os usuários a armazenar e gerenciar suas senhas de forma eficiente. Com uma interface intuitiva e recursos robustos, ele garante a segurança das suas informações.</p>
+<p>O LockPassManager é um gerenciador de senhas seguro e fácil de usar, desenvolvido para ajudar os usuários a armazenar e gerenciar suas senhas de forma eficiente. Com uma interface intuitiva e recursos robustos, ele garante a segurança das suas informações.</p>
 
 <h1 class="display-6 text-white pt-5">Funcionalidades</h1>
 <ul>
