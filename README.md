@@ -459,3 +459,8 @@ No security vulnerability advisories found.
 
   New to Laravel? Check out our bootcamp and documentation. Build something amazing!
 ```
+
+Instale os pacotes do npm
+```
+npm install
+```
