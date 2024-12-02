@@ -1,10 +1,7 @@
-@extends('layouts.app')
-@section('title','Nova Senha')
-@section('content')
+
 <div class="container d-flex justify-content-center align-items-center mt-5 mb-5">
     
     <div class="card shadow-lg p-4 border border-danger" style="max-width: 400px; width: 100%; background-color: transparent; color: #fff; ">
-    <h1 class="text-center mb-3 p-1 display-4">Gerador de Senhas</h1>
         <form>
             <div class="mb-3">
                 <label for="qtde" class="form-label">Quantidade de caracteres</label>
@@ -41,4 +38,3 @@
         </form>
     </div>
 </div>
-@endsection

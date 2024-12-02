@@ -1,4 +1,4 @@
-<footer class="container text-center bg-dark p-5 text-danger">
+<footer class="container-fluid text-center p-3 mt-2 text-danger" style="background-color: #0d0d0db2;">
     <h2 id="connection-url">Conectado em:</h2>
 </footer>
 
