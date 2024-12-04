@@ -12,7 +12,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="images/icons/icon.png" type="image/x-icon">
     <style>
-        /* Configurações padrão para light/dark */
         html {
             color-scheme: light dark;
         }
