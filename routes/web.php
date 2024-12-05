@@ -10,15 +10,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/senhas', function (){
-    return view('senhas');
-});
-
-Route::get('/newPass', function (){
-    return view('newPass');
-    
-});
-
 Route::get('/config', function(){
     return view('config');
 });
+
+use App\Http\Controllers\CursoController;
+
+Route::get('/cursos', [CursoController::class, 'index'])->name('cursos.index');
+Route::get('/cursos/{fileName}', [CursoController::class, 'show'])->name('cursos.show');

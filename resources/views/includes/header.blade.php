@@ -68,7 +68,7 @@
 <body>
 <header class="cabecalho">
   <nav class="cabecalho__menu">
-      <a class="cabecalho__menu__link" href="/senhas">Senhas</a>
+      <a class="cabecalho__menu__link" href="/cursos">cursos</a>
       <a class="cabecalho__menu__link" href="/config">Configurações</a>
       <a class="cabecalho__menu__link" href="#">Sair</a>
   </nav>

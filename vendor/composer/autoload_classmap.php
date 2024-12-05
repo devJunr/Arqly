@@ -4398,6 +4398,7 @@ return array(
     'ParaTest\\WrapperRunner\\WorkerCrashedException' => $vendorDir . '/brianium/paratest/src/WrapperRunner/WorkerCrashedException.php',
     'ParaTest\\WrapperRunner\\WrapperRunner' => $vendorDir . '/brianium/paratest/src/WrapperRunner/WrapperRunner.php',
     'ParaTest\\WrapperRunner\\WrapperWorker' => $vendorDir . '/brianium/paratest/src/WrapperRunner/WrapperWorker.php',
+    'Parsedown' => $vendorDir . '/erusev/parsedown/Parsedown.php',
     'Pest\\ArchPresets\\AbstractPreset' => $vendorDir . '/pestphp/pest/src/ArchPresets/AbstractPreset.php',
     'Pest\\ArchPresets\\Custom' => $vendorDir . '/pestphp/pest/src/ArchPresets/Custom.php',
     'Pest\\ArchPresets\\Laravel' => $vendorDir . '/pestphp/pest/src/ArchPresets/Laravel.php',
