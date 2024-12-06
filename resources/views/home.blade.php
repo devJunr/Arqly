@@ -4,23 +4,23 @@
 
 @section('content')
 <div class="container pb-3">
-  <h1 class="text-center display-5">LockPassManager</h1>
-  <div class="container d-flex justify-content-center align-itens-center">
-  
+  <h1 class="text-center display-5" data-aos="fade-up" data-aos-duration="1000">Plataforma de Cursos</h1>
+  <div class="container d-flex justify-content-center align-items-center" data-aos="zoom-in" data-aos-duration="1000">
     <img src="images/icons/icon.png" class="img-fluid" width="260rem">
   </div>
-  <p>O LockPassManager é um gerenciador de senhas seguro e fácil de usar, desenvolvido para ajudar os usuários a armazenar e gerenciar suas senhas de forma eficiente. Com uma interface intuitiva e recursos robustos, ele garante a segurança das suas informações.</p>
+  
+  <p data-aos="fade-up" data-aos-duration="1200" class="text-center mt-4">A nossa plataforma de cursos oferece acesso gratuito a diversos conteúdos de aprendizado, com a missão de proporcionar educação de qualidade para todos. Todos os cursos podem ser acessados de forma totalmente gratuita, e para mantermos a plataforma ativa e em constante crescimento, contamos com a ajuda de anúncios exibidos nos artigos e em algumas seções estratégicas do site. Além disso, oferecemos versões VIP que removem anúncios e oferecem recursos exclusivos, como conteúdos adicionais e suporte personalizado.</p>
 
-  <h1 class="display-6 pt-5">Funcionalidades</h1>
+  <h1 class="display-6 pt-5" data-aos="fade-up" data-aos-duration="1200">Funcionalidades</h1>
 
   <ul>
-  <li class="pt-1">Armazenamento seguro de senhas: Guarde suas senhas em um local seguro, protegido contra acessos não autorizados.</li>
-  <li class="pt-1">Geração de senhas fortes: Crie senhas robustas e difíceis de adivinhar com apenas um clique.</li>
-  <li class="pt-1">Recuperação de senhas: Recupere facilmente suas senhas caso você as esqueça.</li>
-  <li class="pt-1">Verificação se o email vazou: Fique informado se seu email foi exposto em vazamentos de dados.</li>
-  <li class="pt-1">Interface amigável: Navegue pelo aplicativo de maneira fácil e intuitiva, sem complicações.</li>
-  <li class="pt-1">Nada de guardar na nuvem: Todos os dados são armazenados localmente, garantindo total controle e privacidade das suas informações.</li>
+    <li class="pt-1" data-aos="fade-up" data-aos-duration="1400">Cursos gratuitos: Acesso livre a uma variedade de cursos em diversas áreas do conhecimento.</li>
+    <li class="pt-1" data-aos="fade-up" data-aos-duration="1500">Apoio por anúncios: A manutenção e desenvolvimento da plataforma é financiada por anúncios, permitindo que o acesso aos cursos continue gratuito.</li>
+    <li class="pt-1" data-aos="fade-up" data-aos-duration="1600">Versão VIP: Opção de adquirir a versão VIP para ter uma experiência sem anúncios e benefícios exclusivos, como conteúdos avançados e suporte dedicado.</li>
+    <li class="pt-1" data-aos="fade-up" data-aos-duration="1700">Interface amigável: Navegue pelos cursos de maneira intuitiva e simples, com uma plataforma que facilita o aprendizado.</li>
+    <li class="pt-1" data-aos="fade-up" data-aos-duration="1800">Conteúdo atualizado: Cursos sempre atualizados para refletir as mais recentes tendências e conhecimentos nas áreas de interesse.</li>
   </ul>
-  </div>
-</div>  
+
+</div>
+
 @endsection
