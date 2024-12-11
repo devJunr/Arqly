@@ -3,8 +3,7 @@
 
 <div align="center">
     <img src="https://github.com/devJunr/Arqly/blob/main/public/images/icons/icon.png?raw=true" alt="Logo" width="200"/>
-
-     Arqly - Facilita os Estudos
+    <p style="text-align: center;">Arqly - Facilita os Estudos</p>
 </div>
 
 ---
