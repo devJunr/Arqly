@@ -14,19 +14,19 @@
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 
-    --cor-fundo-modal: rgba(0, 0, 0, 0.7); /* Fundo do modal */
-    --cor-modal-fundo: #fff; /* Cor de fundo do modal */
-    --cor-modal-texto: #000; /* Cor do texto do modal */
+    --cor-fundo-modal: rgba(0, 0, 0, 0.7); 
+    --cor-modal-fundo: #fff; 
+    --cor-modal-texto: #000; 
     --cor-botao-fundo: var(--cor-terciaria);
     --cor-botao-hover: var(--cor-hover-botao);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --cor-fundo-modal: rgba(0, 0, 0, 0.9); /* Fundo escuro */
-        --cor-modal-fundo: #333; /* Cor de fundo do modal no tema escuro */
-        --cor-modal-texto: #fff; /* Cor do texto no tema escuro */
-        --cor-botao-fundo: #fd2222; /* Cor do botão no tema escuro */
+        --cor-fundo-modal: rgba(0, 0, 0, 0.9); 
+        --cor-modal-fundo: #333; 
+        --cor-modal-texto: #fff; 
+        --cor-botao-fundo: #fd2222; 
         --cor-botao-hover: #ff6666;
     }
 }
@@ -196,12 +196,11 @@
       <a class="cabecalho__menu__link" href="/cursos">Artigos</a>
       <a class="cabecalho__menu__link" href="/config">Configurações</a>
       <a class="cabecalho__menu__link" href="#">Sair</a>
-      <!-- Botão para subir artigo, alinhado à direita -->
       <button class="cabecalho__menu__button" id="openModal">Subir Artigo</button>
   </nav>
 </header>
 
-<!-- Modal para subir artigo -->
+
 <div id="myModal" class="modal">
     <div class="modal-content">
         <div>
@@ -225,26 +224,20 @@
 </div>
 
 <script>
-  // Obter o modal
   var modal = document.getElementById("myModal");
   
-  // Obter o botão que abre o modal
   var btn = document.getElementById("openModal");
   
-  // Obter o botão de fechar
   var closeBtn = document.getElementById("closeModal");
 
-  // Quando o usuário clicar no botão, abre o modal
   btn.onclick = function() {
     modal.style.display = "block";
   }
 
-  // Quando o usuário clicar no botão de fechar, fecha o modal
   closeBtn.onclick = function() {
     modal.style.display = "none";
   }
 
-  // Quando o usuário clicar fora do modal, ele também fecha
   window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
